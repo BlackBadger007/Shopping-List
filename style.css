@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 20px;
+    background: #f4f4f4;
+}
+.container{
+    
+
+    background: #f4f4f4;
+    max-width: 700px;
+    border-radius: 10px;
+    padding: 30px 0px;
+    margin: auto;
+    margin-top: 50px;
+}
+.form-input{
+    margin-top: 10px;
+    width: 350px;
+    height: 35px;
+    /* padding: 10px 80px; */
+    border: 1px solid gray;
+    background-color: #f4f4f4;
+    font-size: 20px;
+    color: red;
+
+    border-radius: 10px;
+    text-align: left;
+}
+.btn{
+    /* margin: auto; */
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 5px 100px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    color: black;
+   
+}
+.btn:hover{
+    background: #ccc;
+    cursor: pointer;
+}
+header{
+    display: flex;
+    max-width: fit-content;
+    margin: auto;
+    
+}
+ul {
+    display: flex; 
+    flex-wrap: wrap;
+    
+    
+}
+.remove-item{
+    color: red;
+    border: 0px;
+    background-color: #f4f4f4;
+}
+.remove-item:hover{
+    cursor: pointer;
+}
+.filter{
+    max-width: fit-content;
+    margin: auto;
+}
+.form-input-filter{
+    margin-top: 20px;
+    background-color: #f4f4f4;
+    font-size: 20px;
+
+    width: 350px;
+   
+    height: 35px;
+    /* padding: 10px 80px; */
+    /* border: 2px solid gray; */
+    border: none;
+    border-bottom: 1px solid gray;;
+    /* border-radius: 10px; */
+    text-align: left;
+    /* margin: auto; */
+}
+li{
+    
+    display: flex;
+     flex-wrap: wrap;
+    width: 45%;
+    margin: auto;
+    justify-content: space-between;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 0 10px 10px ;
+    font-weight: 700;
+    padding: 5px 5px;
+    list-style-type: none;
+    
+} 
+.form-control{
+    margin: 15px ;
+    max-width:fit-content;
+    margin: auto;
+
+}
+#clear{
+    margin: auto;
+    font-size: 20px;
+    padding: 5px 130px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    color: black;
+    /* color: gray; */
+   
+    
+}
+#clear:hover{
+    background: #ccc;
+    /* color: gray; */
+    cursor: pointer;
+}
+/* .items {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .items li {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 0 5px 20px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+   */
