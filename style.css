@@ -19,6 +19,10 @@ body{
     margin: auto;
     margin-top: 50px;
 }
+img{
+    margin-top: 25px;
+    height:fit-content;
+}
 .form-input{
     margin-top: 10px;
     width: 350px;
