@@ -27,7 +27,14 @@ function kall(itema){
     button.title="Remove item"
     const icon=document.createElement('i');
     icon.className="fa-solid fa-xmark";
-    li.textContent=`${itema}`;
+
+   
+    let g=itema.charAt(0);
+    let g1=itema.substring(1);
+    g=g.toUpperCase();
+    const ready=(g+g1);
+
+    li.textContent=`${ready}`;
     button.appendChild(icon);
     li.appendChild(button);
     ul2.appendChild(li); 
@@ -63,7 +70,11 @@ add.onclick=function(){
     const ul1=document.querySelector('ul');
 
     const item=(document.getElementById('item-input').value);
-
+    let g=item.charAt(0);
+    let g1=item.substring(1);
+    g=g.toUpperCase();
+    const ready=(g+g1);
+        
     
 
 
@@ -82,7 +93,7 @@ add.onclick=function(){
         alert('You need to enter an item first');
         return;
     }else{ 
-    li.textContent=`${item}`;
+    li.textContent=`${ready}`;
     button.appendChild(icon);
     li.appendChild(button);
     ul1.appendChild(li);   
