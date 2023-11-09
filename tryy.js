@@ -63,7 +63,6 @@ function finalRem(e){
         clearUI();
 }
 
-}
 clear.addEventListener('click', clall);
 function clall(){
     // let kos=getItemFromStorage();
