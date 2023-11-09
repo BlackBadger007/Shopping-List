@@ -29,12 +29,12 @@ function kall(itema){
     icon.className="fa-solid fa-xmark";
 
    
-    let g=itema.charAt(0);
-    let g1=itema.substring(1);
-    g=g.toUpperCase();
-    const ready=(g+g1);
+    // let g=itema.charAt(0);
+    // let g1=itema.substring(1);
+    // g=g.toUpperCase();
+    // const ready=(g+g1);
 
-    li.textContent=`${ready}`;
+    li.textContent=`${itema}`;
     button.appendChild(icon);
     li.appendChild(button);
     ul2.appendChild(li); 
@@ -49,7 +49,7 @@ function finalRem(e){
     if(e.target.parentElement.classList.contains('remove-item')){
          chos=e.target.parentElement.parentElement.textContent;
     }
-    chos=chos.toLowerCase();
+    // chos=chos.toLowerCase();
     // console.log(chos.textContent);
     
     let itemFromStorage=getItemFromStorage();
@@ -70,10 +70,10 @@ add.onclick=function(){
     const ul1=document.querySelector('ul');
 
     const item=(document.getElementById('item-input').value);
-    let g=item.charAt(0);
-    let g1=item.substring(1);
-    g=g.toUpperCase();
-    const ready=(g+g1);
+    // let g=item.charAt(0);
+    // let g1=item.substring(1);
+    // g=g.toUpperCase();
+    // const ready=(g+g1);
         
     
 
@@ -93,7 +93,7 @@ add.onclick=function(){
         alert('You need to enter an item first');
         return;
     }else{ 
-    li.textContent=`${ready}`;
+    li.textContent=`${item}`;
     button.appendChild(icon);
     li.appendChild(button);
     ul1.appendChild(li);   
