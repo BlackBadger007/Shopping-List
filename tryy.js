@@ -63,7 +63,28 @@ function finalRem(e){
         clearUI();
 }
 
+}
+clear.addEventListener('click', clall);
+function clall(){
+    // let kos=getItemFromStorage();
+    let itemfromStorage=getItemFromStorage();
+    // console.log(itemfromStorage);
+    itemfromStorage.forEach((item) => sara(item));
+ 
+}
+function sara(yolyo){
+    let chos=yolyo;
+    // console.log(chos);
+    let itemFromStorage=getItemFromStorage();
 
+    // filter out item to be removed
+    itemFromStorage=itemFromStorage.filter((i) => i!==chos)
+       
+    // Re-set to local storage
+        localStorage.setItem('items',JSON.stringify(itemFromStorage));
+    
+        clearUI();
+}
 
 add.addEventListener('click', (e) => e.preventDefault());
 add.onclick=function(){
