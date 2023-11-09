@@ -42,6 +42,7 @@ function finalRem(e){
     if(e.target.parentElement.classList.contains('remove-item')){
          chos=e.target.parentElement.parentElement.textContent;
     }
+    chos=chos.toLowerCase();
     // console.log(chos.textContent);
     
     let itemFromStorage=getItemFromStorage();
