@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/img/stars.jpg); 
+     background-size: cover;
+
+
+    margin-top: 125px;
+    /* background: blue; */
+}
+.g2{
+    text-align: center;
+
+}
+
+.cls{
+    max-width: fit-content;
+    font-family:'Roboto',sans-serif;
+    background: white;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+
+
+
+}
+
+    
+
+.foo{
+    font-family:'Roboto',sans-serif;
+    
+    text-align: center;
+    color: white;
+}
+#ret{
+/* #shop{ */
+    font-size: 20px;
+    color: white;
+    display: block;
+    background: gray;
+    text-align: center;
+    
+    margin: auto;
+    
+    padding: 5px 80px;
+
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+
+    
+
+    /* width: 300px; */
+    
+    
+    
+    
+    /* margin-top: 10px; */
+    /* margin-left: 50px; */
+
+    
+}
+#ret:hover{
+/* #shop:hover{ */
+    display: block;
+    color: gray;
+    background: #f4f4f4;
+    border: 2px ,  rgb(98, 92, 92), solid;
+    border-width: 3px;
+ border-color: red;
+ border-style: dotted;
+    font-size: 20px;
+    margin: auto;
+    
+    padding: 5px 80px;
+
+    border: none;
+    border-radius: 10px;
+
+}
+
+a{
+    /* font-size: 18px; */
+    
+    text-decoration: none;
+}
+.a2{
+    color: gray;
+}
+
+input{
+    display: block;
+    width:295px;
+    height: 29px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px ;
+    outline: none;
+    
+}
+label{
+    margin-left: 4px;
+}
