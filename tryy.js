@@ -52,12 +52,16 @@ function behave(){
         yut=g2+rem;
 
         // console.log(g.substring(1));
-        console.log(yut);
-    }
-
+        // console.log(yut);
     const num=document.getElementById('f2');
     // num.innerText=yut.value;
     num.innerHTML=`Welcome <br> ${yut}`;
+    }else{
+    const num=document.getElementById('f2');
+    // num.innerText=yut.value;
+    num.innerHTML=`Welcome <br> ${yut.value}`;
+    }
+
     
     // hera.removeChild(sete);
     // console.log('Welcome');
