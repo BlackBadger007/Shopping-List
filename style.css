@@ -166,18 +166,16 @@ li{
 }
 
 @media (max-width: 500px) {
-    .pro{
-            line-height: 25px;
-    text-align: center;
-    max-width: fit-content;
-/*     position: absolute;
-    top: 25px;
-    right: 25px; */
-        margin:auto;
-    background-color: rgb(94, 86, 86);
-    border-radius: 50px;
-    font-weight: 30px;
-    padding: 0px 30px ;
+ .pro{
+        /* margin-top: 50px; */
+        max-width: fit-content;
+        position:static;
+        /* top: 50px; */
+        margin: auto;
+        
+    }
+    .container{
+        margin-top: 0px ;
     }
     .items li {
       width: 100%;
