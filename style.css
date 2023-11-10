@@ -166,6 +166,10 @@ li{
 }
 
 @media (max-width: 500px) {
+    .pro{
+        position :absolute;
+        top:20px;
+    }
     .items li {
       width: 100%;
     }
