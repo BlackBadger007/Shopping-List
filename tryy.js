@@ -39,7 +39,7 @@ function behave(){
         alert('Enter your name first you idiot.');
         return;
     }
-    setTimeout(youdo,50);
+    setTimeout(youdo,1);
     function youdo(){
 
     const g=yut.value;
