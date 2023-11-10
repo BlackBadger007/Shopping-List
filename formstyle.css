@@ -104,3 +104,8 @@ input{
 label{
     margin-left: 4px;
 }
+@media (max-width: 500px) {
+    input {
+      width: 100%;
+    }
+  }
