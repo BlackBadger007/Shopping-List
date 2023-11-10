@@ -105,6 +105,9 @@ label{
     margin-left: 4px;
 }
 @media (max-width: 500px) {
+    body{
+        margin-top:50px;
+    }
     input {
       width: 100%;
     }
