@@ -61,6 +61,10 @@ function behave(){
     
     // hera.removeChild(sete);
     // console.log('Welcome');
+    const cre=document.createElement('link');
+    cre.rel="stylesheet";
+    cre.href="style.css";
+    hera.appendChild(cre);
 
     
     select2.forEach((item) => {
@@ -69,25 +73,19 @@ function behave(){
     foo.forEach((item) => {
         item.style.display="none";
     })
-    // select1.forEach((item) => {
-    //     item.style.display="block";
-    // })
-    select.forEach((item) => {
+
+
+    
+
+            setTimeout(chalo,500);
+    function chalo() {
+            select.forEach((item) => {
         item.style.display="block";
     })
-
-    copo.style.display='block'
-    
-    const cre=document.createElement('link');
-    cre.rel="stylesheet";
-    cre.href="style.css";
-    hera.appendChild(cre);
-
-            setTimeout(chalo,1000);
-    function chalo() {
         select1.forEach((item) => {
             item.style.display="block";
         })
+    copo.style.display='block'
     }
     
 }
