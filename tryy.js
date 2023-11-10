@@ -69,9 +69,9 @@ function behave(){
     foo.forEach((item) => {
         item.style.display="none";
     })
-    select1.forEach((item) => {
-        item.style.display="block";
-    })
+    // select1.forEach((item) => {
+    //     item.style.display="block";
+    // })
     select.forEach((item) => {
         item.style.display="block";
     })
@@ -82,6 +82,13 @@ function behave(){
     cre.rel="stylesheet";
     cre.href="style.css";
     hera.appendChild(cre);
+
+            setTimeout(chalo,1000);
+    function chalo() {
+        select1.forEach((item) => {
+            item.style.display="block";
+        })
+    }
     
 }
 }
