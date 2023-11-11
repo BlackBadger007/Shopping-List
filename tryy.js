@@ -81,7 +81,7 @@ function behave(){
 
     
 
-            setTimeout(chalo,500);
+            setTimeout(chalo,1000);
     function chalo() {
             select.forEach((item) => {
         item.style.display="block";
