@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(/img/stars.jpg); 
+/*     background-image: url(/img/stars.jpg);  */
+    background-color:'rgb(32, 180, 106)'
      background-size: cover;
 
 
