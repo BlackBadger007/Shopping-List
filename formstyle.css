@@ -3,8 +3,8 @@
 }
 body{
 /*     background-image: url(/img/stars.jpg);  */
-    background-color:'rgb(32, 180, 106)'
-     background-size: cover;
+/*      background-size: cover; */
+    background:'rgb(32, 180, 106)'
 
 
     margin-top: 125px;
